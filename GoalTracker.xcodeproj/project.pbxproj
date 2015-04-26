@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE200D791AED5BCE009B541D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE200D781AED5BCE009B541D /* AppDelegate.swift */; };
+		BE200D7C1AED5BCE009B541D /* GoalTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE200D7A1AED5BCE009B541D /* GoalTracker.xcdatamodeld */; };
+		BE200D7E1AED5BCE009B541D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE200D7D1AED5BCE009B541D /* ViewController.swift */; };
+		BE200D811AED5BCF009B541D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE200D7F1AED5BCF009B541D /* Main.storyboard */; };
+		BE200D831AED5BCF009B541D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE200D821AED5BCF009B541D /* Images.xcassets */; };
+		BE200D861AED5BCF009B541D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE200D841AED5BCF009B541D /* LaunchScreen.xib */; };
+		BE200D921AED5BCF009B541D /* GoalTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE200D911AED5BCF009B541D /* GoalTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE200D8C1AED5BCF009B541D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE200D6B1AED5BCE009B541D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE200D721AED5BCE009B541D;
+			remoteInfo = GoalTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE200D731AED5BCE009B541D /* GoalTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE200D771AED5BCE009B541D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE200D781AED5BCE009B541D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE200D7B1AED5BCE009B541D /* GoalTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalTracker.xcdatamodel; sourceTree = "<group>"; };
+		BE200D7D1AED5BCE009B541D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE200D801AED5BCF009B541D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE200D821AED5BCF009B541D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE200D851AED5BCF009B541D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE200D8B1AED5BCF009B541D /* GoalTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoalTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE200D901AED5BCF009B541D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE200D911AED5BCF009B541D /* GoalTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTrackerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE200D701AED5BCE009B541D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE200D881AED5BCF009B541D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE200D6A1AED5BCE009B541D = {
+			isa = PBXGroup;
+			children = (
+				BE200D751AED5BCE009B541D /* GoalTracker */,
+				BE200D8E1AED5BCF009B541D /* GoalTrackerTests */,
+				BE200D741AED5BCE009B541D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE200D741AED5BCE009B541D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE200D731AED5BCE009B541D /* GoalTracker.app */,
+				BE200D8B1AED5BCF009B541D /* GoalTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE200D751AED5BCE009B541D /* GoalTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BE200D781AED5BCE009B541D /* AppDelegate.swift */,
+				BE200D7D1AED5BCE009B541D /* ViewController.swift */,
+				BE200D7F1AED5BCF009B541D /* Main.storyboard */,
+				BE200D821AED5BCF009B541D /* Images.xcassets */,
+				BE200D841AED5BCF009B541D /* LaunchScreen.xib */,
+				BE200D7A1AED5BCE009B541D /* GoalTracker.xcdatamodeld */,
+				BE200D761AED5BCE009B541D /* Supporting Files */,
+			);
+			path = GoalTracker;
+			sourceTree = "<group>";
+		};
+		BE200D761AED5BCE009B541D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE200D771AED5BCE009B541D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE200D8E1AED5BCF009B541D /* GoalTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE200D911AED5BCF009B541D /* GoalTrackerTests.swift */,
+				BE200D8F1AED5BCF009B541D /* Supporting Files */,
+			);
+			path = GoalTrackerTests;
+			sourceTree = "<group>";
+		};
+		BE200D8F1AED5BCF009B541D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE200D901AED5BCF009B541D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE200D721AED5BCE009B541D /* GoalTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE200D951AED5BCF009B541D /* Build configuration list for PBXNativeTarget "GoalTracker" */;
+			buildPhases = (
+				BE200D6F1AED5BCE009B541D /* Sources */,
+				BE200D701AED5BCE009B541D /* Frameworks */,
+				BE200D711AED5BCE009B541D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoalTracker;
+			productName = GoalTracker;
+			productReference = BE200D731AED5BCE009B541D /* GoalTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE200D8A1AED5BCF009B541D /* GoalTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE200D981AED5BCF009B541D /* Build configuration list for PBXNativeTarget "GoalTrackerTests" */;
+			buildPhases = (
+				BE200D871AED5BCF009B541D /* Sources */,
+				BE200D881AED5BCF009B541D /* Frameworks */,
+				BE200D891AED5BCF009B541D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE200D8D1AED5BCF009B541D /* PBXTargetDependency */,
+			);
+			name = GoalTrackerTests;
+			productName = GoalTrackerTests;
+			productReference = BE200D8B1AED5BCF009B541D /* GoalTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE200D6B1AED5BCE009B541D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rising Edge";
+				TargetAttributes = {
+					BE200D721AED5BCE009B541D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BE200D8A1AED5BCF009B541D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BE200D721AED5BCE009B541D;
+					};
+				};
+			};
+			buildConfigurationList = BE200D6E1AED5BCE009B541D /* Build configuration list for PBXProject "GoalTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE200D6A1AED5BCE009B541D;
+			productRefGroup = BE200D741AED5BCE009B541D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE200D721AED5BCE009B541D /* GoalTracker */,
+				BE200D8A1AED5BCF009B541D /* GoalTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE200D711AED5BCE009B541D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE200D811AED5BCF009B541D /* Main.storyboard in Resources */,
+				BE200D861AED5BCF009B541D /* LaunchScreen.xib in Resources */,
+				BE200D831AED5BCF009B541D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE200D891AED5BCF009B541D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE200D6F1AED5BCE009B541D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE200D7E1AED5BCE009B541D /* ViewController.swift in Sources */,
+				BE200D791AED5BCE009B541D /* AppDelegate.swift in Sources */,
+				BE200D7C1AED5BCE009B541D /* GoalTracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE200D871AED5BCF009B541D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE200D921AED5BCF009B541D /* GoalTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE200D8D1AED5BCF009B541D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE200D721AED5BCE009B541D /* GoalTracker */;
+			targetProxy = BE200D8C1AED5BCF009B541D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE200D7F1AED5BCF009B541D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE200D801AED5BCF009B541D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE200D841AED5BCF009B541D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE200D851AED5BCF009B541D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE200D931AED5BCF009B541D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE200D941AED5BCF009B541D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE200D961AED5BCF009B541D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoalTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE200D971AED5BCF009B541D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoalTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE200D991AED5BCF009B541D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoalTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoalTracker.app/GoalTracker";
+			};
+			name = Debug;
+		};
+		BE200D9A1AED5BCF009B541D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoalTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoalTracker.app/GoalTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE200D6E1AED5BCE009B541D /* Build configuration list for PBXProject "GoalTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE200D931AED5BCF009B541D /* Debug */,
+				BE200D941AED5BCF009B541D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE200D951AED5BCF009B541D /* Build configuration list for PBXNativeTarget "GoalTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE200D961AED5BCF009B541D /* Debug */,
+				BE200D971AED5BCF009B541D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE200D981AED5BCF009B541D /* Build configuration list for PBXNativeTarget "GoalTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE200D991AED5BCF009B541D /* Debug */,
+				BE200D9A1AED5BCF009B541D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE200D7A1AED5BCE009B541D /* GoalTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE200D7B1AED5BCE009B541D /* GoalTracker.xcdatamodel */,
+			);
+			currentVersion = BE200D7B1AED5BCE009B541D /* GoalTracker.xcdatamodel */;
+			path = GoalTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE200D6B1AED5BCE009B541D /* Project object */;
+}
