@@ -14,6 +14,15 @@
 		BE200D831AED5BCF009B541D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE200D821AED5BCF009B541D /* Images.xcassets */; };
 		BE200D861AED5BCF009B541D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE200D841AED5BCF009B541D /* LaunchScreen.xib */; };
 		BE200D921AED5BCF009B541D /* GoalTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE200D911AED5BCF009B541D /* GoalTrackerTests.swift */; };
+		BE200DA21AED5CF5009B541D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE200DA11AED5CF5009B541D /* NotificationCenter.framework */; };
+		BE200DA71AED5CF5009B541D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE200DA61AED5CF5009B541D /* TodayViewController.swift */; };
+		BE200DA91AED5CF5009B541D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE200DA81AED5CF5009B541D /* MainInterface.storyboard */; };
+		BE200DAC1AED5CF5009B541D /* GoalTrackerWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BE200D9F1AED5CF5009B541D /* GoalTrackerWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BE200DB61AED6750009B541D /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE200DB51AED6750009B541D /* GoalView.swift */; };
+		BE200DB81AED677F009B541D /* GoalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE200DB71AED677F009B541D /* GoalView.xib */; };
+		BE200DBA1AED694D009B541D /* UIView+NibInstantiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE200DB91AED694D009B541D /* UIView+NibInstantiation.swift */; };
+		BE4D3C6E1AEDD02C00F232EA /* NSNumberFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4D3C6D1AEDD02C00F232EA /* NSNumberFormatter+Extensions.swift */; };
+		BE4D3C6F1AEDD67E00F232EA /* NSNumberFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4D3C6D1AEDD02C00F232EA /* NSNumberFormatter+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,28 @@
 			remoteGlobalIDString = BE200D721AED5BCE009B541D;
 			remoteInfo = GoalTracker;
 		};
+		BE200DAA1AED5CF5009B541D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE200D6B1AED5BCE009B541D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE200D9E1AED5CF5009B541D;
+			remoteInfo = GoalTrackerWidget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE200DB01AED5CF5009B541D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BE200DAC1AED5CF5009B541D /* GoalTrackerWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BE200D731AED5BCE009B541D /* GoalTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +68,15 @@
 		BE200D8B1AED5BCF009B541D /* GoalTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoalTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE200D901AED5BCF009B541D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE200D911AED5BCF009B541D /* GoalTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTrackerTests.swift; sourceTree = "<group>"; };
+		BE200D9F1AED5CF5009B541D /* GoalTrackerWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GoalTrackerWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE200DA11AED5CF5009B541D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BE200DA51AED5CF5009B541D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE200DA61AED5CF5009B541D /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BE200DA81AED5CF5009B541D /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		BE200DB51AED6750009B541D /* GoalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		BE200DB71AED677F009B541D /* GoalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoalView.xib; sourceTree = "<group>"; };
+		BE200DB91AED694D009B541D /* UIView+NibInstantiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibInstantiation.swift"; sourceTree = "<group>"; };
+		BE4D3C6D1AEDD02C00F232EA /* NSNumberFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNumberFormatter+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +94,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE200D9C1AED5CF5009B541D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE200DA21AED5CF5009B541D /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +110,8 @@
 			children = (
 				BE200D751AED5BCE009B541D /* GoalTracker */,
 				BE200D8E1AED5BCF009B541D /* GoalTrackerTests */,
+				BE200DA31AED5CF5009B541D /* GoalTrackerWidget */,
+				BE200DA01AED5CF5009B541D /* Frameworks */,
 				BE200D741AED5BCE009B541D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +121,7 @@
 			children = (
 				BE200D731AED5BCE009B541D /* GoalTracker.app */,
 				BE200D8B1AED5BCF009B541D /* GoalTrackerTests.xctest */,
+				BE200D9F1AED5CF5009B541D /* GoalTrackerWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +131,7 @@
 			children = (
 				BE200D781AED5BCE009B541D /* AppDelegate.swift */,
 				BE200D7D1AED5BCE009B541D /* ViewController.swift */,
+				BE4D3C6D1AEDD02C00F232EA /* NSNumberFormatter+Extensions.swift */,
 				BE200D7F1AED5BCF009B541D /* Main.storyboard */,
 				BE200D821AED5BCF009B541D /* Images.xcassets */,
 				BE200D841AED5BCF009B541D /* LaunchScreen.xib */,
@@ -115,6 +166,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE200DA01AED5CF5009B541D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE200DA11AED5CF5009B541D /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE200DA31AED5CF5009B541D /* GoalTrackerWidget */ = {
+			isa = PBXGroup;
+			children = (
+				BE200DB51AED6750009B541D /* GoalView.swift */,
+				BE200DB71AED677F009B541D /* GoalView.xib */,
+				BE200DB91AED694D009B541D /* UIView+NibInstantiation.swift */,
+				BE200DA61AED5CF5009B541D /* TodayViewController.swift */,
+				BE200DA81AED5CF5009B541D /* MainInterface.storyboard */,
+				BE200DA41AED5CF5009B541D /* Supporting Files */,
+			);
+			path = GoalTrackerWidget;
+			sourceTree = "<group>";
+		};
+		BE200DA41AED5CF5009B541D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE200DA51AED5CF5009B541D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +205,12 @@
 				BE200D6F1AED5BCE009B541D /* Sources */,
 				BE200D701AED5BCE009B541D /* Frameworks */,
 				BE200D711AED5BCE009B541D /* Resources */,
+				BE200DB01AED5CF5009B541D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BE200DAB1AED5CF5009B541D /* PBXTargetDependency */,
 			);
 			name = GoalTracker;
 			productName = GoalTracker;
@@ -153,6 +235,23 @@
 			productReference = BE200D8B1AED5BCF009B541D /* GoalTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BE200D9E1AED5CF5009B541D /* GoalTrackerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE200DAD1AED5CF5009B541D /* Build configuration list for PBXNativeTarget "GoalTrackerWidget" */;
+			buildPhases = (
+				BE200D9B1AED5CF5009B541D /* Sources */,
+				BE200D9C1AED5CF5009B541D /* Frameworks */,
+				BE200D9D1AED5CF5009B541D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoalTrackerWidget;
+			productName = GoalTrackerWidget;
+			productReference = BE200D9F1AED5CF5009B541D /* GoalTrackerWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +267,9 @@
 					BE200D8A1AED5BCF009B541D = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = BE200D721AED5BCE009B541D;
+					};
+					BE200D9E1AED5CF5009B541D = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -186,6 +288,7 @@
 			targets = (
 				BE200D721AED5BCE009B541D /* GoalTracker */,
 				BE200D8A1AED5BCF009B541D /* GoalTrackerTests */,
+				BE200D9E1AED5CF5009B541D /* GoalTrackerWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +311,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE200D9D1AED5CF5009B541D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE200DA91AED5CF5009B541D /* MainInterface.storyboard in Resources */,
+				BE200DB81AED677F009B541D /* GoalView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,6 +329,7 @@
 			files = (
 				BE200D7E1AED5BCE009B541D /* ViewController.swift in Sources */,
 				BE200D791AED5BCE009B541D /* AppDelegate.swift in Sources */,
+				BE4D3C6E1AEDD02C00F232EA /* NSNumberFormatter+Extensions.swift in Sources */,
 				BE200D7C1AED5BCE009B541D /* GoalTracker.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +342,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE200D9B1AED5CF5009B541D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE200DBA1AED694D009B541D /* UIView+NibInstantiation.swift in Sources */,
+				BE200DA71AED5CF5009B541D /* TodayViewController.swift in Sources */,
+				BE4D3C6F1AEDD67E00F232EA /* NSNumberFormatter+Extensions.swift in Sources */,
+				BE200DB61AED6750009B541D /* GoalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +360,11 @@
 			isa = PBXTargetDependency;
 			target = BE200D721AED5BCE009B541D /* GoalTracker */;
 			targetProxy = BE200D8C1AED5BCF009B541D /* PBXContainerItemProxy */;
+		};
+		BE200DAB1AED5CF5009B541D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE200D9E1AED5CF5009B541D /* GoalTrackerWidget */;
+			targetProxy = BE200DAA1AED5CF5009B541D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = GoalTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = GoalTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,6 +521,30 @@
 			};
 			name = Release;
 		};
+		BE200DAE1AED5CF5009B541D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoalTrackerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE200DAF1AED5CF5009B541D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoalTrackerWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +564,7 @@
 				BE200D971AED5BCF009B541D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE200D981AED5BCF009B541D /* Build configuration list for PBXNativeTarget "GoalTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +573,16 @@
 				BE200D9A1AED5BCF009B541D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE200DAD1AED5CF5009B541D /* Build configuration list for PBXNativeTarget "GoalTrackerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE200DAE1AED5CF5009B541D /* Debug */,
+				BE200DAF1AED5CF5009B541D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
